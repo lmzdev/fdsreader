@@ -5,8 +5,7 @@ Ein Browserbasiertes Lesewerkzeug für Drägerware/FeuerON FDS-Dateien.
 ```shell
 # nodejs/npm required
 npm install
-npm run build
-npm run preview
+npm start
 ```
 
 ## Kompatibilität

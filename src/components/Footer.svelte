@@ -6,7 +6,7 @@
     >
       FDS-Dokumentation
     </a>
-    <a aria-disabled="true" class="f-item outline" href="https://github.com/lmzdev"> GitHub </a>
+    <a aria-disabled="true" class="f-item outline" href="https://github.com/lmzdev/fdsreader"> GitHub </a>
   </div>
 
   <style>
