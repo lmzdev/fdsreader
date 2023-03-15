@@ -5,12 +5,10 @@
   import Copy from "carbon-icons-svelte/lib/Copy.svelte";
   import Information from "carbon-icons-svelte/lib/Information.svelte";
   import {zipurl, unzipurl} from 'zipurl'
-  import { readonly } from 'svelte/store';
 
   let fdsOutput = "";
   let fdsInput = "";
   let shareLink = ""
-  let inputDisabled = ""
 
   function clickConvert() {
     const c = new Converter(fdsInput);
