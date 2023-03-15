@@ -1,6 +1,6 @@
 {
   "name": "fdsparse",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -17,6 +17,7 @@
     "eslint-plugin-svelte3": "^4.0.0",
     "svelte": "^3.55.1",
     "vite": "^4.1.0",
+    "vite-plugin-package-version": "^1.0.2",
     "zipurl": "^0.2.15"
   }
 }
