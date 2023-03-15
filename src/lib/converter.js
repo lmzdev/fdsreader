@@ -82,7 +82,7 @@ export default class Converter {
         returnString += `\n# Fahrzeuge\n`
         for (const [index, fzg] of obj.Fahrzeuge.entries()) {
             if (index === 0) continue
-            returnString += `[${String(index).padStart(3, ' ')}] ${String(fzg['Funkrufname']).padEnd(18,' ')} [3: ${fzg['Zeit St 3'] || '-/-'}] [4: ${fzg['Zeit St 4'] || '-/-'}] [1: ${fzg['Zeit St 1'] || '-/-'}] [2: ${fzg['Zeit St 2'] || '-/-'}]}\n`
+            returnString += `[${String(index).padStart(3, ' ')}] ${String(fzg['Funkrufname'])} [3: ${fzg['Zeit St 3'] || '-/-'}] [4: ${fzg['Zeit St 4'] || '-/-'}] [1: ${fzg['Zeit St 1'] || '-/-'}] [2: ${fzg['Zeit St 2'] || '-/-'}]}\n`
         }
         returnString += `\n# Lagemeldung\n`
         for (const [index, lage] of obj.LageMeldung.entries()) {

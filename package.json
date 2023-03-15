@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "npm run lint && vite build",
-    "preview": "vite preview --host",
+    "preview": "vite preview",
     "lint": "eslint ./src",
     "start": "npm run build && npm run preview"
   },
@@ -16,8 +16,7 @@
     "eslint": "^8.36.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "svelte": "^3.55.1",
-    "vite": "^4.1.0"
-  },
-  "dependencies": {
+    "vite": "^4.1.0",
+    "zipurl": "^0.2.15"
   }
 }
