@@ -6,7 +6,6 @@
 
 
 <div class="footer">
-    <a class="f-item outline" href="/">Startseite</a>
     <a class="f-item outline" href="https://feueron.de/feueron"><Link style="margin-bottom:2px" size={16} /> FeuerON </a>
     <a
       class="f-item outline"
