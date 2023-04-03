@@ -87,7 +87,11 @@ export default class Converter {
         returnString += `\n# Lagemeldung\n`
         for (const [index, lage] of obj.LageMeldung.entries()) {
             if (index === 0) continue
-            returnString += `[${String(index).padStart(3, ' ')}] ${lage['Datum']} ${lage['Uhrzeit']} [${lage['Absender']}] ${lage['Meldung']}\n`
+            returnString += `[${String(index).padStart(3, ' ')}] ${lage['Datum']} ${lage['Uhrzeit']} [${lage['Absender']}] ${lage['Meldung']}`
+            if (lage['Beschreibung']) {
+                returnString += ` -> ${lage['Beschreibung']}`
+            }
+            returnString += '\n'
         }
 
         return returnString
